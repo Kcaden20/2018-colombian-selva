@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body
+{
+  background:
+    linear-gradient(135deg, #f8fcbd 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #f8fcbd 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #f8fcbd 25%, transparent 25%),
+    linear-gradient(45deg, #f8fcbd 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #1d1c1c;
+}
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'Pacha';
+    src: url('assets/Pacha-Regular.woff2') format('woff2'),
+        url('assets/Pacha-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CUSTOM CSS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pacha';
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: #1d1c1c;}
+
+.title {
+  font-size: 8rem;
+  color: #1d1c1c;
+     -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: white;
+
+}
+h1 {
+  font-size: 5rem;
+  letter-spacing: 5px;
+
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 3px;
+}
+
+
+p {
+font-family: 'Montaga', serif;
+}
+header{
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+.container-wrap {
+  display: grid;
+  grid-gap: 30px;
+  padding: 10px;
+  grid-template-columns: 2fr 4fr;
+  height: 100vh;
+}
+
+.big-container {
+  display: grid;
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.med-container {
+  grid-gap: 0px;
+}
+
+.med-container img {
+  width: 50%;
+}
+
+.small-container {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.small-container p {
+  display: block;
+  padding: 20px;
+  border: 5px solid #e9f505;
+  background-color: #41ef41;
+  box-shadow: 1px 1px 6px 2px red;
+  line-height: 1.2em;
+}
+
+.mini-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-columns: 1fr 4fr;
+
+}
+
+.mini-container img {
+    border: 5px solid #41f041;
+      box-shadow: 1px 1px 6px 2px red;
+    margin: auto;
+        margin-top: 80px;
+}
+.mini-container p {
+  border: 5px solid #41f041;
+  background-color: #e9f505;
+  line-height: 1.2em;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
